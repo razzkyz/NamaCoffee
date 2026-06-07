@@ -1,0 +1,29 @@
+---
+description: NAMA COFFEE design system — baca DESIGN.md sebelum ubah UI
+alwaysApply: true
+---
+
+# NAMA COFFEE Design
+
+**Baca `DESIGN.md` di root project sebelum mengubah layout, warna, hero, navbar, atau gambar.**
+
+## Quick Reference
+
+- **Theme:** Dark premium — bg `#0A0A0A`, teks `#F5F2ED`, aksen `#6F4E37`
+- **Hero:** `bg.png` via CSS (`auto 100%` + `right bottom`), gradient kiri, jangan overlay cup terpisah
+- **Navbar:** Fixed, blur di layer terpisah (`backdrop-blur-md` + `translateZ(0)`), logo NA/MA, menu uppercase
+- **Section title:** `font-black` besar + underline `w-20 h-1.5 bg-[#6F4E37]`
+- **CTA:** Rounded-full, ivory primary / outline secondary
+- **Gambar tempat:** `PlaceImage` + `tempat1–4.png` di `public/images/`
+- **Data bisnis:** `lib/constants.ts` — jangan hardcode phone/IG/maps
+
+## Jangan
+
+- View Transitions / intercept link click
+- `transition-all` (pakai `transition-colors`)
+- `bg-cover center` untuk hero background
+- Improvise warna/font di luar palette
+
+## Inner pages
+
+Menu & Kontak pakai dark theme penuh (sama landing).

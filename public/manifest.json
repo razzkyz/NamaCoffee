@@ -1,0 +1,36 @@
+{
+  "name": "NAMA COFFEE",
+  "short_name": "NAMA COFFEE",
+  "description": "NAMA COFFEE - Tempat Ngopi Cozy di Cimahi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#6F4E37",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-540.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshot-1080.png",
+      "sizes": "1080x1440",
+      "type": "image/png"
+    }
+  ]
+}
