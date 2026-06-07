@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { NavbarMobileMenu } from '@/components/navbar-mobile-menu';
 import { NavbarNavLinks } from '@/components/navbar-nav-links';
-import { Button } from '@/components/ui/button';
 
 export function Navbar() {
   return (
